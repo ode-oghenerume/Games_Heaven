@@ -1,3 +1,55 @@
 @import url('colors.css');
 
-body{margin: 0px;}
+body{margin: 0px; font-family: sans-serif; color: var(--fg);}
+
+section{
+    background-color: var(--bg);
+    color: var(--fg); 
+    padding: 20px 8vw;
+}
+
+.sm_section{
+    padding: 5px 8vw;
+}
+
+.bg_dark{
+    background-color: var(--bg_dark);  
+    color: var(--fg_light) !important; 
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.socials a{
+    height: 20px;
+    width: 20px;
+    margin: 3px;
+    padding: 3px;
+}
+
+.socials>a img{
+    height: inherit;
+    width: inherit;
+}
+
+.socials a{
+    color: var(--fg);
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0px 20px 0px 0px;
+    min-width: 100px;
+}
+
+.fill{
+    width: 100%;
+    border: 2px black;
+}
+
+.utils *{
+    margin: 0px 5px;
+}

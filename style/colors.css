@@ -1,7 +1,9 @@
 :root{
-    --primary: rgb(187, 92, 147);
-    --secondary: rgb(12, 12, 54);
+    --primary: rgb(122, 35, 85);
+    --secondary: rgb(35, 35, 44);
 
-    --bg: rgb(48, 48, 48);
-    --fg: rgb(236, 226, 226);
+    --bg: rgb(209, 209, 209);
+    --bg_dark: rgb(34, 33, 33);
+    --fg: rgb(20, 20, 20);
+    --fg_light: rgb(211, 203, 203);
 }
