@@ -26,6 +26,7 @@
 
 var menu = document.getElementById("menu_items")
 var is_menu_open = false
+var slideshow = document.getElementById("swipe")
 
 function open_items(){
      if(is_menu_open)
@@ -39,3 +40,6 @@ function open_items(){
     }
 }
 
+function slide(){
+    slideshow.style.backgroundImage = "url(./img/nadine-shaabana-YsPnamiHdmI-unsplash.jpg)"
+}
